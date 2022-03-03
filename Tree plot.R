@@ -10,7 +10,7 @@ m <- metacont(Ne,Me,Se,Nc,Mc,Sc,
               studlab=paste(author,year), # 
               data=LCQ)
 
-forest(m, xlab="Maximum % fall in FEV1")
+forest(m)
 
 
 VAS <- read_excel("VAS data.xlsx")
@@ -22,5 +22,5 @@ m <- metacont(Ne,Me,Se,Nc,Mc,Sc,
               studlab=paste(author,year), # 
               data=VAS)
 
-forest(m, xlab="Maximum % fall in FEV1")
+forest(m)
 
